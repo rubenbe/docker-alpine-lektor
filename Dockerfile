@@ -1,4 +1,4 @@
-FROM python:2.7.14-alpine3.6
+FROM python:2.7.16-alpine3.9
 RUN apk update && \
     apk add imagemagick && \
     apk add gcc automake musl-dev libffi-dev openssl-dev && \
